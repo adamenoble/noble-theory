@@ -1,0 +1,202 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.nbconvert.ipynb
+*/.ipynb_checkpoints/
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*.tmp
+
+# Data files (keep small, exclude large)
+*.h5
+*.hdf5
+*.nc
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# Figures (optional, can be generated)
+figures/*.png
+figures/*.pdf
+figures/*.svg
+!figures/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Output data
+output/
+results/
+
+# Configuration files (local overrides)
+config_local.yaml
+config_local.yml
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Lock files
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Python version specific
+.python-version
+
+# Coverage files
+*.coverage
+
+# C extensions
+*.c
+*.cpp
+*.h
+
+# Debug logs
+debug.log
+
+# Jupyter nbconvert
+*.nbconvert.ipynb
+
+# Jupyter lab
+jupyterlab/
+
+# Matplotlib cache
+.matplotlib/
+
+# Sphinx documentation
+_build/
+_autosummary/
+
+# PyTorch
+*.pth
+*.pt
+
+# TensorFlow
+*.pb
+*.meta
+
+# Core dumps
+core.*
+*.core
+
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# PDFs (keep only in papers/ directory)
+*.pdf
+!papers/*.pdf
+
+# TeX
+*.tex~
+*.latexmkrc
+
+# Noble Theory specific
+noble_theory_local.yaml
+validation_cache/
