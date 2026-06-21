@@ -1,0 +1,38 @@
+# ============================================================================
+# NOBLE THEORY & BQF - PYTHON DEPENDENCIES
+# ============================================================================
+# Noble Theory: Unified Framework for Branching Systems
+# BQF: Partonic Realization of Noble Theory
+# ============================================================================
+# Python Version: 3.9 or higher
+# Install with: pip install -r requirements.txt
+# ============================================================================
+
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+pandas>=1.5.0
+
+# Jupyter notebooks (for tutorials/demos)
+jupyter>=1.0.0
+
+# Configuration and data (YAML parsing)
+pyyaml>=6.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Progress bars (optional)
+tqdm>=4.65.0
+
+# Just-in-time compilation (optional, for speed)
+numba>=0.57.0
+
+# Interactive widgets (optional)
+ipywidgets>=8.0.0
+
+# Type checking (optional, for development)
+# mypy>=1.0.0
