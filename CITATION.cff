@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software or framework, please cite it as:"
+authors:
+  - family-names: Noble
+    given-names: Adam E.
+    email: adam.noble@addnoble.com.au
+title: "Noble Theory: A Unified Mathematical Framework for Branching Systems"
+version: 3.0
+date-released: 2026-06-21
+doi: 10.5281/zenodo.20481625
+url: "https://doi.org/10.5281/zenodo.20481625"
+repository-code: "https://github.com/adamenoble/noble-theory"
+keywords:
+  - Noble Theory
+  - NCFD
+  - Collatz Conjecture
+  - Riemann Zeta Zeros
+  - Unification
+  - Quantum Gravity
+  - Cosmology
+license: MIT
