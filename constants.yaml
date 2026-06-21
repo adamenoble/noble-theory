@@ -1,0 +1,361 @@
+# ============================================================================
+# NOBLE THEORY & BQF - MASTER CONSTANTS FILE
+# ============================================================================
+# This file contains all fundamental constants, derived parameters,
+# and NCFD-specific parameters for the Noble Theory and Binary Quark Framework.
+# ============================================================================
+# Version: 3.0
+# Date: 2026-06-21
+# Author: Adam E. Noble
+# ============================================================================
+
+metadata:
+  version: "3.0"
+  date: "2026-06-21"
+  author: "Adam E. Noble"
+  description: "Master constants file for Noble Theory and Binary Quark Framework (BQF)"
+  references:
+    - "CODATA 2018"
+    - "Planck 2018"
+    - "PDG 2024"
+
+# ============================================================================
+# FUNDAMENTAL PHYSICAL CONSTANTS
+# ============================================================================
+fundamental_constants:
+  # Speed of light (m/s)
+  c: 299792458.0
+  c_uncertainty: 0.0
+  c_unit: "m/s"
+  c_source: "CODATA 2018"
+  
+  # Reduced Planck constant (J·s)
+  hbar: 1.054571817e-34
+  hbar_uncertainty: 0.000000023e-34
+  hbar_unit: "J·s"
+  hbar_source: "CODATA 2018"
+  
+  # Gravitational constant (m³·kg⁻¹·s⁻²)
+  G: 6.67430e-11
+  G_uncertainty: 0.00015e-11
+  G_unit: "m³·kg⁻¹·s⁻²"
+  G_source: "CODATA 2018"
+  
+  # Cosmological constant (m⁻²)
+  Lambda: 1.1056e-52
+  Lambda_uncertainty: 0.0005e-52
+  Lambda_unit: "m⁻²"
+  Lambda_source: "Planck 2018"
+  
+  # Fine structure constant
+  alpha: 0.0072973525693
+  alpha_uncertainty: 0.0000000000011
+  alpha_unit: "dimensionless"
+  alpha_source: "CODATA 2018"
+  
+  # Elementary charge (C)
+  e_charge: 1.602176634e-19
+  e_charge_uncertainty: 0.0
+  e_charge_unit: "C"
+  e_charge_source: "CODATA 2018"
+
+# ============================================================================
+# COSMOLOGICAL PARAMETERS (Planck 2018)
+# ============================================================================
+cosmological_constants:
+  # Baryon fraction
+  Omega_b: 0.0490
+  Omega_b_uncertainty: 0.0007
+  Omega_b_source: "Planck 2018"
+  
+  # Cold dark matter fraction
+  Omega_c: 0.265
+  Omega_c_uncertainty: 0.007
+  Omega_c_source: "Planck 2018"
+  
+  # Dark energy fraction
+  Omega_Lambda: 0.686
+  Omega_Lambda_uncertainty: 0.007
+  Omega_Lambda_source: "Planck 2018"
+  
+  # Hubble constant (km/s/Mpc)
+  H0: 67.4
+  H0_uncertainty: 0.5
+  H0_unit: "km/s/Mpc"
+  H0_source: "Planck 2018"
+  
+  # Reduced Hubble constant (dimensionless)
+  tau: 0.054
+  tau_uncertainty: 0.001
+  tau_source: "Planck 2018"
+  
+  # Dark energy equation of state
+  w0: -1.03
+  w0_uncertainty: 0.03
+  wa: 0.0
+  wa_uncertainty: 0.1
+  w_source: "Planck 2018"
+
+# ============================================================================
+# NCFD CORE PARAMETERS
+# ============================================================================
+ncfd_constants:
+  # Critical coupling
+  lambda_c: 0.05
+  lambda_c_derivation: "1/(2^2 × 5) = 1/20"
+  
+  # Constraint parameter (biological optimum)
+  c_biological: 0.87
+  c_biological_uncertainty: 0.02
+  c_biological_source: "Neural networks, river basins, plant roots"
+  
+  # Pure fractal baseline
+  c_fractal: 0.76
+  c_fractal_source: "Unconstrained branching limit"
+  
+  # Critical exponent
+  nu: 20
+  nu_derivation: "1/lambda_c"
+  
+  # Strong coupling at M_Z
+  alpha_s_MZ: 0.118
+  alpha_s_MZ_derivation: "2.36 × lambda_c"
+  alpha_s_MZ_source: "PDG 2024"
+  alpha_s_MZ_uncertainty: 0.001
+  
+  # Cosmological weights
+  w_cosmo: 0.8  # 4/5
+  w_cosmo_derivation: "2^2/(2^2+1)"
+  w1_cosmo: 0.2  # 1/5
+  w1_cosmo_derivation: "1/(2^2+1)"
+  
+  # Dark matter fraction prediction
+  Omega_DM_predicted: 0.26
+  Omega_DM_derivation: "2(1-c_biological)"
+  Omega_DM_observed: 0.265
+  Omega_DM_observed_uncertainty: 0.007
+  Omega_DM_match_pct: 1.9
+
+# ============================================================================
+# RESONANCE AND ZETA PARAMETERS
+# ============================================================================
+resonance_constants:
+  # Resonance width base
+  sigma_base: 3.33
+  sigma_base_derivation: "≈ 5ln(2)"
+  sigma_base_source: "Empirical"
+  
+  # Resonance coupling strength
+  alpha_resonance: 1.4
+  alpha_resonance_source: "NCFD fit"
+  
+  # Number of active resonance hubs
+  n_hubs: 5
+  hub_indices: [3, 4, 5, 6, 7]
+  hub_values: [8, 16, 32, 64, 128]
+  
+  # Numerical floor
+  epsilon: 1.0e-6
+  
+  # Number of zeta zeros used
+  n_zeta_zeros: 5
+
+# ============================================================================
+# RIEMANN ZETA ZEROS (First 10 non-trivial zeros)
+# ============================================================================
+zeta_zeros:
+  t1: 14.134725
+  t2: 21.022040
+  t3: 25.010858
+  t4: 30.424876
+  t5: 32.935062
+  t6: 37.586178
+  t7: 40.918719
+  t8: 43.327073
+  t9: 48.005150
+  t10: 49.773832
+  # First zero on critical line: s = 1/2 + i*t
+  # All zeros are assumed to lie on the critical line
+
+# ============================================================================
+# GRAVITATIONAL FINE STRUCTURE
+# ============================================================================
+gravitational_constants:
+  # Gravitational fine structure constant
+  alpha_Lambda: 3.4624e121
+  alpha_Lambda_uncertainty: 1.5678e118
+  alpha_Lambda_derivation: "c³/(GΛħ)"
+  
+  # Exponent n for gravitational connection
+  n_exponent: 93.417817
+  n_exponent_uncertainty: 0.000348
+  n_exponent_derivation: "log10(alpha_Lambda) / log10(1/lambda_c)"
+  
+  # Alternative expressions for n
+  n_approx_1: 93.4180  # 2² × 5 × 4.6709
+  n_approx_2: 93.4002  # e × 34.36
+  n_approx_3: 93.4700  # π × 29.75
+
+# ============================================================================
+# BQF ENCODING PARAMETERS
+# ============================================================================
+bqf_constants:
+  # Base for encoding
+  base: 6
+  base_description: "Number of quark flavours (d,u,s,c,b,t)"
+  
+  # Physical state filters
+  no_top_quark: true
+  integer_charge: true
+  
+  # Number of physical baryons
+  n_physical_states: 125
+  n_total_states: 216  # 6³
+  
+  # Encoding weights
+  weight_red: 36    # 6²
+  weight_green: 6   # 6¹
+  weight_blue: 1    # 6⁰
+  
+  # Lightest stable baryon
+  neutron_m: 36
+  proton_m: 42
+  baryon_cutoff: 36
+  
+  # Charge values (in units of e)
+  quark_charges:
+    d: -0.333333  # -1/3
+    u: 0.666667   # 2/3
+    s: -0.333333  # -1/3
+    c: 0.666667   # 2/3
+    b: -0.333333  # -1/3
+    t: 0.666667   # 2/3
+
+# ============================================================================
+# TRANSITION MATRIX PARAMETERS
+# ============================================================================
+matrix_constants:
+  # Branching operator parameters
+  branch_doubling: 2.0
+  branch_collatz: 3.0
+  branch_additive: 2.0
+  
+  # Transition probabilities (at c=0.87)
+  prob_doubling: 0.87
+  prob_collatz: 0.065
+  prob_additive: 0.065
+  
+  # Matrix properties
+  matrix_dimension: 125
+  nonzero_density: 0.0195  # 1.95%
+  
+  # Eigenvalue results
+  lambda2_magnitude: 0.927938
+  mixing_time: 13.88
+  oscillatory_fraction: 0.85  # 85%
+
+# ============================================================================
+# NEUTRINO MASS PREDICTIONS (P7)
+# ============================================================================
+neutrino_constants:
+  # 2^n scaling hypothesis
+  scaling_base: 2
+  mass_ratios: [0.5, 1.0, 2.0]  # m₁:m₂:m₃ = 0.5:1:2
+  mass_ratios_integers: [-1, 0, 1]  # k values
+  
+  # Best-fit masses (eV)
+  m1: 0.00631
+  m2: 0.01262
+  m3: 0.05050
+  sum_masses: 0.06944
+  
+  # Experimental bounds (eV)
+  sum_mass_cosmological: 0.12
+  katrin_current: 0.8
+  katrin_future: 0.2
+  dune_sensitivity: 0.02
+  
+  # Hierarchy
+  predicted_hierarchy: "normal"  # normal or inverted
+
+# ============================================================================
+# QCD AND LHC PARAMETERS (P3)
+# ============================================================================
+qcd_constants:
+  # Casimir factors
+  CF: 1.333333  # 4/3
+  CA: 3.0       # For gluons
+  
+  # Fractal dimensions
+  D_quark: 1.05
+  D_quark_uncertainty: 0.02
+  D_gluon: 1.20
+  D_gluon_uncertainty: 0.02
+  
+  # Running coupling
+  alpha_s_MZ: 0.118
+  alpha_s_MZ_source: "PDG 2024"
+  MZ: 91.1876  # GeV
+  
+  # Jet observables
+  jet_pT_transition: 91.2  # GeV
+  transition_width: 20.0   # GeV
+
+# ============================================================================
+# NUMBER THEORY CONSTANTS
+# ============================================================================
+number_theory_constants:
+  # Goldbach partitions
+  goldbach_min: 4
+  goldbach_max: 1000
+  
+  # Popcount labeling
+  label_19: 1   # stable
+  label_10: -1  # chaotic
+  
+  # Key numbers
+  two_squared: 4
+  five_hubs: 5
+  
+  # Near-integer relationships
+  n_expression_1: "2² × 5 × 4.6709"
+  n_expression_2: "e × 34.36"
+  n_expression_3: "π × 29.75"
+  n_expression_4: "√π × 52.7"
+
+# ============================================================================
+# DERIVED RELATIONSHIPS
+# ============================================================================
+derived_relationships:
+  # Cosmological combination
+  lambda_c_cosmo:
+    formula: "(4/5)Ω_b + (1/5)τ"
+    value: 0.050000
+    error: 0.0
+    status: "confirmed"
+  
+  # Gravitational connection
+  lambda_c_gravity:
+    formula: "α_Λ^(-1/n)"
+    value: 0.050000
+    error: 0.0
+    status: "confirmed"
+  
+  # QED connection
+  lambda_c_qed:
+    formula: "α × 6.8518"
+    value: 0.050000
+    error: 0.0
+    status: "confirmed"
+  
+  # Dark matter fraction
+  Omega_DM_prediction:
+    formula: "2(1-c)"
+    value: 0.26
+    observed: 0.265
+    error_pct: 1.9
+    status: "confirmed"
+
+# ============================================================================
+# END OF CONSTANTS FILE
+# ============================================================================
