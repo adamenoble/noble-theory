@@ -1,0 +1,75 @@
+# ============================================================================
+# PLANCK 2018 COSMOLOGICAL PARAMETERS
+# ============================================================================
+# Source: Planck Collaboration, A&A 641, A6 (2020)
+# ============================================================================
+
+metadata:
+  source: "Planck 2018"
+  reference: "A&A 641, A6 (2020)"
+  date: "2026-06-21"
+
+cosmological_parameters:
+  # Baryon fraction
+  Omega_b:
+    value: 0.0490
+    uncertainty: 0.0007
+    unit: "dimensionless"
+    
+  # Cold dark matter fraction
+  Omega_c:
+    value: 0.265
+    uncertainty: 0.007
+    unit: "dimensionless"
+    
+  # Total matter fraction
+  Omega_m:
+    value: 0.315
+    uncertainty: 0.007
+    unit: "dimensionless"
+    
+  # Dark energy fraction
+  Omega_Lambda:
+    value: 0.685
+    uncertainty: 0.007
+    unit: "dimensionless"
+    
+  # Hubble constant (km/s/Mpc)
+  H0:
+    value: 67.4
+    uncertainty: 0.5
+    unit: "km/s/Mpc"
+    
+  # Reduced Hubble constant (dimensionless)
+  tau:
+    value: 0.054
+    uncertainty: 0.001
+    unit: "dimensionless"
+    
+  # Dark energy equation of state
+  w0:
+    value: -1.03
+    uncertainty: 0.03
+    unit: "dimensionless"
+    
+  # Scalar spectral index
+  ns:
+    value: 0.965
+    uncertainty: 0.004
+    unit: "dimensionless"
+    
+  # Amplitude of fluctuations (x10^9)
+  As:
+    value: 2.10
+    uncertainty: 0.03
+    unit: "dimensionless"
+
+# Derived quantities
+derived:
+  Omega_DM: 0.265
+  Omega_baryon: 0.049
+  Omega_radiation: 0.0001
+  Omega_k: 0.001
+  H0_km_s_Mpc: 67.4
+  age_universe_Gyr: 13.8
+  recombination_z: 1100
