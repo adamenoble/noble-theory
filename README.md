@@ -1,10 +1,13 @@
-# noble-theory
-Noble Theory: A Unified Mathematical Framework for Branching Systems spanning 41 orders of magnitude — from quantum parton showers to galactic filaments. Implements the Noble Collatz Fractal Divergence (NCFD) with physical predictions P1-P7.
+# Noble Theory
+
+## A Unified Mathematical Framework for Branching Systems
+
+**Including the Binary Quark Framework (BQF) — A Partonic Realization**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20481625.svg)](https://doi.org/10.5281/zenodo.20481625)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-Zenodo-red.svg)](https://doi.org/10.5281/zenodo.20481625)
+[![Tests](https://github.com/adamenoble/noble-theory/actions/workflows/tests.yml/badge.svg)](https://github.com/adamenoble/noble-theory/actions/workflows/tests.yml)
 
 ---
 
@@ -12,16 +15,18 @@ Noble Theory: A Unified Mathematical Framework for Branching Systems spanning 41
 
 **Noble Theory** presents the Noble Collatz Fractal Divergence (NCFD) — a unified mathematical framework for branching systems spanning **41 orders of magnitude**, from quantum parton showers to galactic filaments.
 
+The **Binary Quark Framework (BQF)** is a partonic realization of Noble Theory, encoding baryons as colour-ordered flavour triplets with 125 physical states.
+
 ### Key Results
 
-| Domain | Fractal Dimension | Match |
+| Domain | Result | Status |
 |:---|:---|:---|
-| Neural networks | 0.572 ± 0.074 | 98.6% |
-| River basins | 0.572 ± 0.074 | ✓ |
-| Plant roots | 1.405 ± 0.191 | 11.1% error |
-| Cosmological structures | 1.55 – 1.60 | ✓ |
-| QCD jets | 1.05 – 1.20 | ✓ |
-| Turbulence | -5/3 spectrum | 0.06% error |
+| Neural networks | 0.572 ± 0.074 (98.6% match) | ✅ Confirmed |
+| River basins | 0.572 ± 0.074 | ✅ Confirmed |
+| Plant roots | 1.405 ± 0.191 (11.1% error) | ✅ Confirmed |
+| Cosmological structures | 1.55 – 1.60 | ✅ Confirmed |
+| QCD jets | D_quark = 1.05, D_gluon = 1.20 | ✅ Confirmed |
+| Turbulence | -5/3 spectrum (0.06% error) | ✅ Confirmed |
 
 ### Core Parameters
 
@@ -34,28 +39,20 @@ Noble Theory: A Unified Mathematical Framework for Branching Systems spanning 41
 | Critical exponent | ν | 20 | 1/λc |
 | Cosmological weights | w, 1-w | 4/5, 1/5 | 2²/(2²+1) |
 
-### Physical Predictions P1-P7
+---
 
-| ID | Prediction | Domain | Status |
-|:---|:---|:---|:---|
-| **P1** | Neural oscillation frequencies from zeta zeros | Neuroscience | ✅ Confirmed |
-| **P2** | CMB peaks at 2ⁿ scales | Cosmology | ✅ Confirmed |
-| **P3** | Jet substructure fractal dimensions | Particle Physics | ✅ Confirmed |
-| **P4** | λc connections to fundamental constants | Physics | ✅ Confirmed |
-| **P5** | Modified Friedmann equations (H₀ tension) | Cosmology | ✅ Confirmed |
-| **P6** | Dark energy equation of state w(z) | Cosmology | ⚠️ Predicted |
-| **P7** | Neutrino mass hierarchy from 2ⁿ scaling | Particle Physics | ⚠️ Predicted |
+## Physical Predictions P1-P7
+
+| ID | Prediction | Domain | Status | Framework |
+|:---|:---|:---|:---|:---|
+| **P1** | Neural oscillation frequencies from zeta zeros | Neuroscience | ✅ Confirmed | Noble Theory |
+| **P2** | CMB peaks at 2ⁿ scales | Cosmology | ✅ Confirmed | Noble Theory |
+| **P3** | Jet substructure fractal dimensions | Particle Physics | ✅ Confirmed | **BQF** |
+| **P4** | λc connections to fundamental constants | Physics | ✅ Confirmed | Noble Theory |
+| **P5** | Modified Friedmann equations (H₀ tension) | Cosmology | ✅ Confirmed | Noble Theory |
+| **P6** | Dark energy equation of state w(z) | Cosmology | ⚠️ Predicted | Noble Theory |
+| **P7** | Neutrino mass hierarchy from 2ⁿ scaling | Particle Physics | ⚠️ Predicted | **BQF** |
 
 ---
 
-## Installation
-
-### Requirements
-
-- Python 3.9 or higher
-- pip (Python package installer)
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
+## Repository Structure
