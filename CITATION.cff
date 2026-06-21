@@ -1,21 +1,41 @@
 cff-version: 1.2.0
-message: "If you use this software or framework, please cite it as:"
+message: "If you use this software or framework, please cite the corresponding paper(s):"
+
 authors:
   - family-names: Noble
     given-names: Adam E.
-    email: adam.noble@addnoble.com.au
+    email: adnob@proton.me
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+
 title: "Noble Theory: A Unified Mathematical Framework for Branching Systems"
+
 version: 3.0
 date-released: 2026-06-21
+
 doi: 10.5281/zenodo.20481625
 url: "https://doi.org/10.5281/zenodo.20481625"
 repository-code: "https://github.com/adamenoble/noble-theory"
+
 keywords:
   - Noble Theory
   - NCFD
+  - Binary Quark Framework
+  - BQF
   - Collatz Conjecture
   - Riemann Zeta Zeros
   - Unification
   - Quantum Gravity
   - Cosmology
+  - Particle Physics
+  - QCD
+
 license: MIT
+
+references:
+  - title: "Binary Quark Framework: A Partonic Realization of the Noble Collatz Fractal Divergence"
+    authors:
+      - family-names: Noble
+        given-names: Adam E.
+    year: 2026
+    doi: 10.5281/zenodo.20757230
+    url: "https://doi.org/10.5281/zenodo.20757230"
